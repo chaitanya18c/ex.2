@@ -31,6 +31,7 @@ The result is that combinational logic circuits have no feedback, and any change
 ![Screenshot 2023-06-09 145121](https://github.com/chaitanya18c/ex.2/assets/119392724/d16403db-fe9d-4e11-abe3-d097b4c97405)
 
 ## Program:
+```
 module exp2a(a,b,c,d,f1,f2);
 input a,b,c,d;
 output f1,f2;
@@ -48,6 +49,7 @@ and(q,a,c);
 and(r,b,c);
 or(f2,p,q,r);
 endmodule
+```
 
 ## RTL Schematic:
 ![Screenshot 2023-06-09 144613](https://github.com/chaitanya18c/ex.2/assets/119392724/5f0af5d9-feed-4c43-ab5b-a4ada8d4f46f)
